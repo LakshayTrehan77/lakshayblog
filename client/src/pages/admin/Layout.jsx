@@ -19,7 +19,7 @@ const Layout = () => {
       {/* Top Navbar */}
       <div className="flex items-center justify-between h-[100px] px-4 sm:px-12 border-b border-gray-200 bg-white shadow-sm">
         <img
-          src="src/assets/Blue_Waves_Surfing_Club_Logo-removebg-preview.png"
+          src={assets.logo2}
           alt="logo"
           className="w-32 sm:w-40 cursor-pointer transition-transform duration-300 hover:scale-105"
           onClick={() => navigate("/")}
